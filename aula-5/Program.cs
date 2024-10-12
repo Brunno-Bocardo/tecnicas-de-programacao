@@ -44,5 +44,37 @@ public class HelloWorld
 
 
         // EXERCICIO 3
+        int[,] matriz = new int[5, 5];
+        int totalSomaMatriz = 0;
+
+        Console.WriteLine("Digite os valores da matriz 5x5:");
+        for (int i = 0; i < 5; i++)
+            for (int j = 0; j < 5; j++){
+                Console.Write($"Elemento [{i+1},{j+1}]: ");
+                matriz[i, j] = int.Parse(Console.ReadLine());
+                totalSomaMatriz += matriz[i, j]; 
+            }
+        
+        Console.WriteLine("\nSoma e média de cada linha:");
+        for (int i = 0; i < 5; i++){
+            int somaLinha = 0;
+            for (int j = 0; j < 5; j++)
+                somaLinha += matriz[i, j];
+            
+            Console.WriteLine($"Linha {i+1}: Soma = {somaLinha}, Média = {(double)somaLinha / 5}");
+        }
+
+        Console.WriteLine("\nSoma e média de cada coluna:");
+        for (int j = 0; j < 5; j++){
+            int somaColuna = 0;
+            for (int i = 0; i < 5; i++)
+                somaColuna += matriz[i, j];
+            
+            Console.WriteLine($"Coluna {j+1}: Soma = {somaColuna}, Média = {(double)somaColuna / 5}");
+        }
+
+        double mediaMatriz = (double)totalSomaMatriz / (5 * 5);
+        Console.WriteLine($"\nSoma total da matriz: {totalSomaMatriz}");
+        Console.WriteLine($"Média total da matriz: {mediaMatriz}");
     }
 }
