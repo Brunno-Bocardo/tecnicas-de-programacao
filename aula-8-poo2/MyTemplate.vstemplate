@@ -1,0 +1,25 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>aula-8-poo2</Name>
+    <Description>&lt;Nenhuma descrição disponível&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>aula-8-poo2</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="aula-8-poo2.csproj" File="aula-8-poo2.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="ContaBancaria.cs">ContaBancaria.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ContaCorrente.cs">ContaCorrente.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ContaPoupanca.cs">ContaPoupanca.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
