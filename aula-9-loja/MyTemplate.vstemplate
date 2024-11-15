@@ -1,0 +1,29 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Exercicio</Name>
+    <Description>&lt;Nenhuma descrição disponível&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Exercicio</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Exercicio.csproj" File="Exercicio.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="CestaDeCompras.cs">CestaDeCompras.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Dvd.cs">Dvd.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Guitarra.cs">Guitarra.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Notebook.cs">Notebook.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Produto.cs">Produto.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Televisores.cs">Televisores.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Videogames.cs">Videogames.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
